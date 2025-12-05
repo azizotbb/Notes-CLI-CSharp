@@ -11,24 +11,52 @@ A simple command-line notes application built with C# and Mono.
    ```
 
 2. **Run the application:**
+
    ```bash
    mono bin/notes
    ```
 
+3. **Setup shortcut (optional):**
+
+   ```bash
+   # Add current directory to PATH for this session
+   export PATH=$PATH:$(pwd)
+
+   # Now you can use 'note' from anywhere in this terminal session
+   ```
+
 ## Usage
+
+### Simple way (after setup):
 
 ```bash
 # Add a note
-mono bin/notes add "Your note text here"
+note add "Your note text here"
 
 # List all notes
-mono bin/notes list
+note list
 
 # Search notes
-mono bin/notes search "keyword"
+note search "keyword"
 
 # Delete a note by number
-mono bin/notes delete 1
+note delete 1
+```
+
+### Direct way (without setup):
+
+```bash
+# Add a note
+./note add "Your note text here"
+
+# List all notes
+./note list
+
+# Search notes
+./note search "keyword"
+
+# Delete a note by number
+./note delete 1
 ```
 
 ## Project Structure
