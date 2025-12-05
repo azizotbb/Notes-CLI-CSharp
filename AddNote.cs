@@ -7,6 +7,7 @@ public class AddNote
 
     public static void AddNote(string text)
     {
+
         if (string.IsNullOrWhiteSpace(text))
         {
             Console.WriteLine("Note text is empty!");

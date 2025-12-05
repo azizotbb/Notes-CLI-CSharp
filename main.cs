@@ -36,7 +36,7 @@ class Program
                 break;
             // Search notes by keyword
             case "search":
-                SearchNotes(string.Join(" ", args.Skip(1)));
+                SearchNotes.SearchNotes(string.Join(" ", args.Skip(1)));
                 break;
             // Delete a note by index
             case "delete":
