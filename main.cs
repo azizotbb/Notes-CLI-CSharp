@@ -28,7 +28,7 @@ class Program
         {
             // Add a new note
             case "add":
-                AddNote(string.Join(" ", args.Skip(1)));
+                AddNote.AddNote(string.Join(" ", args.Skip(1)));
                 break;
             // List all notes
             case "list":
