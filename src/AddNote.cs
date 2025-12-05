@@ -5,7 +5,7 @@ namespace NotesCliCSharp
 {
     public class AddNote
     {
-        static string filePath = "notes.txt";
+        static string filePath = "data/notes.txt";
 
         public static void Add(string text)
         {

@@ -7,7 +7,7 @@ namespace NotesCliCSharp
 {
     public class DeleteNote
     {
-        static string filePath = "notes.txt";
+        static string filePath = "data/notes.txt";
 
         public static void Delete(string indexStr)
         {

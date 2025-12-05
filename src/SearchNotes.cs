@@ -6,7 +6,7 @@ namespace NotesCliCSharp
 {
     public class SearchNotes
     {
-        static string filePath = "notes.txt";
+        static string filePath = "data/notes.txt";
 
         public static void Search(string keyword)
         {
