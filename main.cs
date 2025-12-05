@@ -32,7 +32,7 @@ class Program
                 break;
             // List all notes
             case "list":
-                ListNotes();
+                ListNotes.ListNotes();
                 break;
             // Search notes by keyword
             case "search":
