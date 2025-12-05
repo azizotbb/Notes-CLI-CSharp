@@ -40,7 +40,7 @@ class Program
                 break;
             // Delete a note by index
             case "delete":
-                DeleteNote(args.Skip(1).FirstOrDefault());
+                DeleteNote.DeleteNote(args.Skip(1).FirstOrDefault());
                 break;
             // Unknown command
             default:
