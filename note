@@ -1,3 +1,0 @@
-#!/bin/bash
-cd /Users/abdulaziz/Desktop/twaiq/Notes-CLI-CSharp
-mono bin/notes "$@"
